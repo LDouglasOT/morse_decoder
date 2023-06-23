@@ -1,35 +1,154 @@
-# Morsecode
 
-TODO: Delete this and the text below, and describe your gem
+# Morse Decoder
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/morsecode`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-## Installation
+# 📗 Table of Contents
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+# 📖 Morse Decoder <a name="about-project"></a>
 
-If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+**Morse Decoder** is a ruby based project that solves the problem that follows;
+During your vacation at the seaside, time after time you find old bottles with parchment inside. Out of curiosity, you look into the next bottle and see that there is a message written in Morse code. Your curiosity grows even more - maybe you just found the lost treasure of the pirates! However, you are getting tired of decrypting messages manually. Fortunately, you can program in Ruby and you can help yourself by automating this process.
 
-## Usage
+## 🛠 Built With <a name="built-with"></a>
 
-TODO: Write usage instructions here
+### Tech Stack <a name="tech-stack"></a>
 
-## Development
+<details>
+<summary>Ruby</summary>
+  <ul>
+    <li><a href="https://www.rubyonrails.org/">Ruby</a></li>
+  </ul>
+</details>
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+### Key Features <a name="key-features"></a>
 
-## Contributing
+- **Decode method** This is a method that decodes the morse code characters into readable characters.
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/morsecode. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/morsecode/blob/master/CODE_OF_CONDUCT.md).
 
-## Code of Conduct
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Everyone interacting in the Morsecode project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/morsecode/blob/master/CODE_OF_CONDUCT.md).
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need to:
+
+ <ul>
+    <li>Install a text editor like Visual Studio Codes</li>
+ </ul>
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone https://github.com/LDouglasOT/morse_decoder.git
+```
+
+### Install
+
+This project is considered installed once you clone it
+
+
+### Usage
+
+Once the project is cloned in your desired directory you can use it
+
+### Run tests
+
+To ensure that the ruby files pass linters run the following command
+
+```sh
+  rubocop .  
+```
+
+### Deployment
+
+You can only run this project on your local machine
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Adams Bamfo**
+
+- GitHub: [Adams-Ghub](https://github.com/Adams-Ghub)
+- Twitter: [@bamfoaf](https://twitter.com/bamfoaf)
+- LinkedIn: [Adams Bamfo](https://www.linkedin.com/in/adams-bamfo/)
+
+👤 **Douglas Luzinda**
+
+- GitHub: [@LdouglasOT](https://github.com/LdouglasOT)
+- Twitter: [@LdouglasOT](https://twitter.com/LdouglasOT)
+- LinkedIn: [LdouglasOT](https://www.linkedin.com/in/LdouglasOT/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+Improve the code to be better and better
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project share it with others
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+We would like to thank Microverse for providing the problem for us to solve with ruby
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ❓ FAQ <a name="faq"></a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
