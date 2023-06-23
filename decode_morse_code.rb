@@ -16,3 +16,13 @@ MORSE_CODE = {
     decoded_word = letters.map { |letter| decode_char(letter) }
     decoded_word.join
   end
+  
+  def decode(message)
+    words = message.split('   ’)
+    decoded_message = words.map { |word| decode_word(word) }
+    decoded_message.join(' ‘)
+  end
+  # Example usage:
+  morse_code = ‘.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...’
+  decoded_message = decode(morse_code)
+  puts decoded_message
