@@ -20,7 +20,6 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 
@@ -138,11 +137,6 @@ If you like this project share it with others
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 We would like to thank Microverse for providing the problem for us to solve with ruby
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## ❓ FAQ <a name="faq"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
